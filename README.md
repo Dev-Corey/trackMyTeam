@@ -1,8 +1,9 @@
   # Track My Team
   
   
-  ![badge](https://img.shields.io/badge/license-mit-blue)
-    
+  ![badge](https://img.shields.io/badge/license-mit-blue) 
+
+  https://user-images.githubusercontent.com/87203701/158032477-6a778d59-762c-4584-bf6f-75fd5f86e438.mp4
 
   ## Table-of-Contents
 
@@ -24,6 +25,8 @@
 
   To get this on your local machine simply clone this repository, `npm i` to install all packages needed, navigate to `server.js` and update `Line 15 && Line 18` with your MySQL     username and password. Once this is updated and saved, open your terminal and use command `mysql -u root -p` input your password and use commands `CREATE DATABASE employeesDB` , `SOURCE sql/schema.sql` and `SOURCE sql/seed.sql`. At this point you have etablished connection to MySQL, Created and Seeded your database and ready to use the program. Insuring that    you have `exit` the mysql command line and are back on your normal terminal use command `npm start` and you are off to the races!
 
+  ![Screen Capture of "view employees"](./assets/img/employeeCAPTURE.PNG)
+  ![Screen Capture of "view by department"](./assets/img/departmentCAPTURE.PNG)
 
   ## [License](#table-of-contents)
 
